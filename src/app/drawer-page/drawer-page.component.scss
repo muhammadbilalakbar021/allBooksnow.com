@@ -1,0 +1,89 @@
+.drwaer_Container {
+    width: 100%;
+    height: 2000px;
+    background-color: aliceblue
+  }
+
+.side{
+    width: 250px;
+}
+
+.image{
+    width: 100%;
+    height: 500px;
+}
+
+.left_Nav{
+    background-color: aqua;
+    width: 300px;
+}
+
+.example-card {
+    max-width: 200px;
+  }
+  
+  .example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+  }
+
+  .back_Image{
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    // background-size: cover;
+  }
+
+.position
+{
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+mat-grid-tile
+{
+    background: lightblue;
+}
+
+section
+{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.books
+{
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+}
+
+.pixels
+{
+    height: 362px;
+    width: 544px;
+}
+
+.headline {
+    
+    
+    }
+  
+  .headline a, 
+  .headline p {
+      margin:0px;
+      display: inline-block;
+      padding:1em;
+      vertical-align: top;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 16px;
+      line-height: 28px;
+      margin-top: 3px;
+  }
+  .headline p {
+      font-weight: bold;
+  }
+  .headline a{
+      margin-left: 100px;
+  }
+  

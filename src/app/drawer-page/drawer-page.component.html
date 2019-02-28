@@ -1,0 +1,1009 @@
+<mat-drawer-container class="drwaer_Container">
+  <mat-drawer mode="side" opened class="side">
+    <ul class="navbar-nav mr-auto" style="margin-left: 5px;">
+      <li class="nav-item active">
+        <font size="+2">
+          <a class="nav-link waves-light" mdbWavesEffect>Select Category<span class="sr-only">(current)</span></a>
+        </font>
+        <hr>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link waves-light" mdbWavesEffect (click)="display('Algorithms')">Algorithms</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link waves-light" mdbWavesEffect (click)="display('Artificial Intelligence')">Artificial
+          Intelligence</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link waves-light" mdbWavesEffect (click)="display('Computer Graphics')">Computer Graphics
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link waves-light" mdbWavesEffect (click)="display('Computer Networks')">Computer Networks
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link waves-light" mdbWavesEffect (click)="display('Compiler Design and Construction')">Compiler
+          Design and Construction
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link waves-light" mdbWavesEffect (click)="display('Database Systems')">Database Systems
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link waves-light" mdbWavesEffect (click)="display('Data Structures and Algorithms')">Data
+          Structures and Algorithms
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link waves-light" mdbWavesEffect (click)="display('Data Security and Encryption')">Data Security
+          and Encryption
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link waves-light" mdbWavesEffect (click)="display('Data Mining')">Data Mining
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link waves-light" mdbWavesEffect (click)="display('Data Visualization')">Data Visualization
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link waves-light" mdbWavesEffect (click)="display('Data Warehousing')">Data Warehousing
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link waves-light" mdbWavesEffect (click)="display('Design and Analysis of Algorithms')">Design
+          and Analysis of Algorithms
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link waves-light" mdbWavesEffect (click)="display('Design Pattern')">Design Pattern
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link waves-light" mdbWavesEffect (click)="display('Discrete Structures')">Discrete Structures
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link waves-light" mdbWavesEffect>Digital Image Processing
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link waves-light" mdbWavesEffect>Distributed Systems
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link waves-light" mdbWavesEffect>Formal Methods in Software Engineering
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link waves-light" mdbWavesEffect>Formal Methods
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link waves-light" mdbWavesEffect>Geometric Modeling
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link waves-light" mdbWavesEffect>Human Computer Interaction
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link waves-light" mdbWavesEffect>Introduction to Computing
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link waves-light" mdbWavesEffect>Introduction to ICT
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link waves-light" mdbWavesEffect (click)="display('Introduction to Software Engineering')">Introduction
+          to Software Engineering
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link waves-light" mdbWavesEffect>Introduction to Computer Programming
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link waves-light" mdbWavesEffect>Machine Learning
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link waves-light" mdbWavesEffect>Natural Language Processing
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link waves-light" mdbWavesEffect>Operating Systems Concepts
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link waves-light" mdbWavesEffect>Object Oriented Programming
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link waves-light" mdbWavesEffect (click)="display('Object Oriented Software Engineering')">Object
+          Oriented Software Engineering
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link waves-light" mdbWavesEffect (click)="display('Programming Fundamentals')">Programming
+          Fundamentals
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link waves-light" mdbWavesEffect>Professional Practices for IT
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link waves-light" mdbWavesEffect>Reverse Engineering
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link waves-light" mdbWavesEffect>Software Quality Engineering
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link waves-light" mdbWavesEffect>Software Project Management
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link waves-light" mdbWavesEffect>Software Testing
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link waves-light" mdbWavesEffect>Software Design and Architecture
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link waves-light" mdbWavesEffect>Software Requirement Engineering
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link waves-light" mdbWavesEffect>Theory of Automata
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link waves-light" mdbWavesEffect>Theory of Computation
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link waves-light" mdbWavesEffect>Web Technologies
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link waves-light" mdbWavesEffect>Wireless and Mobile Computing
+        </a>
+      </li>
+
+    </ul>
+    <router-outlet></router-outlet>
+  </mat-drawer>
+  <mat-drawer-content>
+    <div class="drawer_Comtent">
+      <div style="margin-top: 50px;">
+
+        <!--------------------------------Books From Here------------------------->
+        <div *ngIf='Discrete_Structures'>
+          <div class="books">
+            <h1>Books</h1>
+            <hr>
+            <div class="container">
+              <div class="row">
+                <div class="col-4">
+                  <!-- Card -->
+                  <div class="card">
+
+                    <!-- Card image -->
+                    <img class="card-img-top" src="assets/discrete.jpg" alt="Card image cap">
+
+                    <!-- Card content -->
+                    <div class="card-body">
+
+                      <!-- Title -->
+                      <h4 class="card-title"><a>Discrete Mathematics</a></h4>
+                      <!-- Text -->
+                      <p class="card-text">Kenneth H Rosan </p>
+                      <!-- Button -->
+                      <a href="http://www2.fiit.stuba.sk/~kvasnicka/Mathematics%20for%20Informatics/Rosen_Discrete_Mathematics_and_Its_Applications_7th_Edition.pdf"
+                        class="btn btn-primary">Download</a>
+
+                    </div>
+
+                  </div>
+                  <!-- Card -->
+                </div>
+
+                <div class="col-4">
+
+                </div>
+
+                <div class="col-4">
+
+                </div>
+              </div>
+            </div>
+            <br><br>
+            <h1>Slides</h1>
+            <hr>
+
+            <div class="headline">
+              <p>Lecture 1 (pdf)</p>
+              <a href="https://drive.google.com/open?id=0B4vkOCvOtYa8bHNvSGVTR1JRcXlVS3pMay1XaUNFZldlT2lz" target="_blank"
+                class="btn btn-primary">
+                Download</a>
+            </div>
+            <div class="headline">
+              <p>Lecture 2 (pdf)</p>
+              <a href="https://drive.google.com/open?id=0B4vkOCvOtYa8aHN6M0xVQ0Q1d2JMVmJIVUs4N1Bqa1picnBZ" target="_blank"
+                class="btn btn-primary">
+                Download</a>
+            </div>
+            <div class="headline">
+              <p>Lecture 3 (pdf)</p>
+              <a href="https://drive.google.com/open?id=0B4vkOCvOtYa8b2hWSkFJelpSNkt1UV9OaHBxY3dCQ3BEWUYw" target="_blank"
+                class="btn btn-primary">
+                Download</a>
+            </div>
+            <div class="headline">
+              <p>Lecture 4 (pdf)</p>
+              <a href="https://drive.google.com/open?id=0B4vkOCvOtYa8blRKUDN5VXNwSk9Dd0tMT0JNQlA2V0huQmF3" target="_blank"
+                class="btn btn-primary">
+                Download</a>
+            </div>
+            <div class="headline">
+              <p>Lecture 5 (pdf)</p>
+              <a href="https://drive.google.com/open?id=0B4vkOCvOtYa8WENiR0xlM0dmWGMtandCWVNxeFhHdU1MMUNB" target="_blank"
+                class="btn btn-primary">
+                Download</a>
+            </div>
+            <div class="headline">
+              <p>Lecture 6 (pdf)</p>
+              <a href="https://drive.google.com/open?id=0B4vkOCvOtYa8STVFcVpaU3dzSmpXSmNhOGZ6U01YWWtCVmpB" target="_blank"
+                class="btn btn-primary">
+                Download</a>
+            </div>
+
+            <br><br>
+            <h1>Assignment</h1>
+            <hr>
+
+            <div class="headline">
+              <p>Assignmet 1 (pdf)</p>
+              <a href="https://drive.google.com/open?id=0B4vkOCvOtYa8a0VHV0hQQzRSR3NpME9TbUhsUGdUeU9kMW1z" target="_blank"
+                class="btn btn-primary">
+                Download</a>
+            </div>
+            <div class="headline">
+              <p>Assignmet 2 (pdf)</p>
+              <a href="https://drive.google.com/open?id=0B4vkOCvOtYa8NXotOTZNaTdDbjlxS3N0VS1odDBsQnRmN0NV" target="_blank"
+                class="btn btn-primary">
+                Download</a>
+            </div>
+
+          </div>
+        </div>
+
+        <div *ngIf='Algorithms'>
+          <div class="books">
+            <div class="container">
+              <div class="row">
+                <div class="col-4">
+                  <!-- Card -->
+                  <div class="card">
+                    <!-- Card image -->
+                    <img class="card-img-top" src="assets/a1.jpg" alt="Card image cap">
+
+                    <!-- Card content -->
+                    <div class="card-body">
+
+                      <!-- Title -->
+                      <h4 class="card-title"><a>Algorithms + Data Structures</a></h4>
+                      <!-- Text -->
+                      <p class="card-text">Niklaus Wirth</p>
+                      <!-- Button -->
+                      <a href="http://www.ethoberon.ethz.ch/WirthPubl/AD.pdf" class="btn btn-primary">Download</a>
+                    </div>
+                  </div>
+                  <!-- Card -->
+                </div>
+
+                <div class="col-4">
+                  <div class="card">
+                    <!-- Card image -->
+                    <img class="card-img-top" src="assets/a2.jpg" alt="Card image cap">
+
+                    <!-- Card content -->
+                    <div class="card-body">
+
+                      <!-- Title -->
+                      <h4 class="card-title"><a>The Algorithm Design Manual</a></h4>
+                      <!-- Text -->
+                      <p class="card-text">Steven Skiena</p>
+                      <!-- Button -->
+                      <a href="http://mimoza.marmara.edu.tr/~msakalli/cse706_12/SkienaTheAlgorithmDesignManual.pdf"
+                        class="btn btn-primary">Download</a>
+                    </div>
+                  </div>
+
+                </div>
+
+                <div class="col-4">
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div *ngIf='Object_Oriented_Software_Engineering'>
+          <div class="books">
+            <div class="container">
+              <div class="row">
+                <div class="col-4">
+                  <!-- Card -->
+                  <div class="card">
+
+                    <!-- Card image -->
+                    <img class="card-img-top" src="assets/oopse1.jpg" alt="Card image cap">
+
+                    <!-- Card content -->
+                    <div class="card-body">
+
+                      <!-- Title -->
+                      <h4 class="card-title"><a>Object Oriented Software Engineering</a></h4>
+                      <!-- Text -->
+                      <p class="card-text">Timothy C. Lethbridge & Robert Laganière </p>
+                      <!-- Button -->
+                      <a href="https://doc.lagout.org/programmation/Java/Object-Oriented%20Software%20Engineering_%20Practical%20Software%20Development%20using%20UML%20and%20Java%20%282nd%20ed.%29%20%5BLethbridge%20%26%20Lagani%C3%A8re%202004-12-01%5D.pdf"
+                        class="btn btn-primary">Download</a>
+
+                    </div>
+
+                  </div>
+                  <!-- Card -->
+                </div>
+
+                <div class="col-4">
+
+                </div>
+
+                <div class="col-4">
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div *ngIf='Artificial_Intelligence'>
+          <div class="books">
+            <div class="container">
+              <div class="row">
+                <div class="col-4">
+                  <!-- Card -->
+                  <div class="card">
+
+                    <!-- Card image -->
+                    <img class="card-img-top" src="assets/ai1.jpg" alt="Card image cap">
+
+                    <!-- Card content -->
+                    <div class="card-body">
+
+                      <!-- Title -->
+                      <h4 class="card-title"><a>Artificial Intelligence</a></h4>
+                      <!-- Text -->
+                      <p class="card-text">George F. Luger</p>
+                      <!-- Button -->
+                      <a href="http://iips.icci.edu.iq/images/exam/artificial-intelligence-structures-and-strategies-for--complex-problem-solving.pdf"
+                        class="btn btn-primary">Download</a>
+
+                    </div>
+
+                  </div>
+                  <!-- Card -->
+                </div>
+
+                <div class="col-4">
+
+                </div>
+
+                <div class="col-4">
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--Computer Graphics-->
+        <div *ngIf='Computer_Graphics'>
+          <div class="books">
+            <div class="container">
+              <div class="row">
+                <div class="col-4">
+                  <div class="card">
+                    <img class="card-img-top" src="assets/cg1.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h4 class="card-title"><a>OpenGL SuperBible: Comprehensive Tutorial and Reference</a></h4>
+                      <p class="card-text">TGraham Sellers, Nicholas Haemel, and RICHARD S.WRIGHT JR</p>
+                      <a href="https://f.usemind.org/files/b/1/UseMind.ORG_comprehensive-tutorial-and-reference_2015__.pdf"
+                        class="btn btn-primary">Download</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-4">
+                  <div class="card">
+                    <img class="card-img-top" src="assets/cg2.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h4 class="card-title"><a>Graphics Shaders: Theory and Practice</a></h4>
+                      <p class="card-text">Mike Bailey and Steve Cunningham</p>
+                      <a href="http://cs.uns.edu.ar/cg/clasespdf/GraphicShaders.pdf" class="btn btn-primary">Download</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-4">
+                  <div class="card">
+                    <img class="card-img-top" src="assets/cg3.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h4 class="card-title"><a>OpenGL 4 Shading Language Cookbook</a></h4>
+                      <p class="card-text">David Wolff</p>
+                      <a href="https://people.inf.elte.hu/plisaai/pdf/David%20Wolff%20-%20OpenGL%204.0%20Shading%20Language%20Cookbook%20(2).pdf"
+                        class="btn btn-primary">Download</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div *ngIf='Introduction_to_Software_Engineering'>
+          <div class="books">
+            <h1>Books</h1>
+            <div class="container">
+              <div class="row">
+                <div class="col-4">
+                  <!-- Card -->
+                  <div class="card">
+
+                    <!-- Card image -->
+                    <img class="card-img-top" src="assets/ise1.jpg" alt="Card image cap">
+
+                    <!-- Card content -->
+                    <div class="card-body">
+
+                      <!-- Title -->
+                      <h4 class="card-title"><a>Intro To software Engineering</a></h4>
+                      <!-- Text -->
+                      <p class="card-text">Roger S Pressmen </p>
+                      <!-- Button -->
+                      <a href="http://dinus.ac.id/repository/docs/ajar/RPL-7th_ed_software_engineering_a_practitioners_approach_by_roger_s._pressman_.pdf"
+                        class="btn btn-primary">Download</a>
+
+                    </div>
+
+                  </div>
+                  <!-- Card -->
+                </div>
+
+                <div class="col-4">
+                  <div class="card">
+
+                    <!-- Card image -->
+                    <img class="card-img-top" src="assets/ise2.jpg" alt="Card image cap">
+
+                    <!-- Card content -->
+                    <div class="card-body">
+
+                      <!-- Title -->
+                      <h4 class="card-title"><a>Software Engineering</a></h4>
+                      <!-- Text -->
+                      <p class="card-text">Ian Sommeerville</p>
+                      <!-- Button -->
+                      <a href="http://dinus.ac.id/repository/docs/ajar/RPL-7th_ed_software_engineering_a_practitioners_approach_by_roger_s._pressman_.pdf"
+                        class="btn btn-primary">Download</a>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br><br>
+            <h1>Slides</h1>
+            <hr>
+
+            <div class="headline">
+              <p>Lecture 1 (pdf)</p>
+              <a href="https://drive.google.com/open?id=0B4vkOCvOtYa8OFRYcXNRLWlnWDlZNDNJWWlfOHhRNnN3UUNB" target="_blank"
+                class="btn btn-primary">
+                Download</a>
+            </div>
+            <div class="headline">
+              <p>Lecture 2 (pdf)</p>
+              <a href="https://drive.google.com/open?id=0B4vkOCvOtYa8QjZELWJ5UzNpQWV0dXE3WGUzQ2tLcUdtXzVR" target="_blank"
+                class="btn btn-primary">
+                Download</a>
+            </div>
+
+
+
+          </div>
+        </div>
+
+        <!--Ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss-->
+        <div *ngIf='Computer_Networks'>
+          <div class="books">
+            <div class="container">
+              <div class="row">
+                <div class="col-4">
+                  <div class="card">
+                    <img class="card-img-top" src="assets/cn1.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h4 class="card-title"><a>Data and Computer Communications</a></h4>
+                      <p class="card-text">William Stallings</p>
+                      <a href="https://ee.unsoed.ac.id/~awwn/kuliah/TKE134028/DCC10e.pdf" class="btn btn-primary">Download</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-4">
+                  <div class="card">
+                    <img class="card-img-top" src="assets/cn2.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h4 class="card-title"><a>Data communications and networking</a></h4>
+                      <p class="card-text">Behrouz A. Forouzan</p>
+                      <a href="https://doc.lagout.org/network/Data%20Communications%20and%20Networking%20By%20Behrouz%20A.Forouzan.pdf"
+                        class="btn btn-primary">Download</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-4">
+                  <div class="card">
+                    <img class="card-img-top" src="assets/cn3.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h4 class="card-title"><a>Tcp ip illustrated (volume 3)</a></h4>
+                      <p class="card-text">Andrew S. Tanenbaum</p>
+                      <a href="http://iips.icci.edu.iq/images/exam/Computer-Networks---A-Tanenbaum---5th-edition.pdf"
+                        class="btn btn-primary">Download</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div *ngIf='Compiler_Design_and_Construction'>
+          <div class="books">
+            <div class="container">
+              <div class="row">
+                <div class="col-4">
+                  <div class="card">
+                    <img class="card-img-top" src="assets/cc.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h4 class="card-title"><a>COMPILER CONSTRUCTION</a></h4>
+                      <p class="card-text">William M. Waite</p>
+                      <a href="https://www.cs.cmu.edu/~aplatzer/course/Compilers/waitegoos.pdf" class="btn btn-primary">Download</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-4">
+                  <div class="card">
+                    <img class="card-img-top" src="assets/cc2.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h4 class="card-title"><a>COMPILER Design in C</a></h4>
+                      <p class="card-text">Allen I.Holub</p>
+                      <a href="https://holub.com/goodies/compiler/compilerDesignInC.pdf" class="btn btn-primary">Download</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-4">
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div *ngIf='Database_Systems'>
+          <div class="books">
+            <div class="container">
+              <div class="row">
+                <div class="col-4">
+                  <div class="card">
+                    <img class="card-img-top" src="assets/db1.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h4 class="card-title"><a>Database System Concepts</a></h4>
+                      <p class="card-text">Abraham Silberschatz, Henry F. Korth</p>
+                      <a href="https://kakeboksen.td.org.uit.no/Database%20System%20Concepts%206th%20edition.pdf" class="btn btn-primary">Download</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-4">
+                  <div class="card">
+                    <img class="card-img-top" src="assets/db2.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h4 class="card-title"><a>Fundamentals of Database Systems</a></h4>
+                      <p class="card-text"> Ramez Elmasri, Shamkant B. Navathe</p>
+                      <a href="https://faculty.psau.edu.sa/filedownload/doc-4-pdf-8ba9f7401e1f60f3024ad195d4a24d8e-original.pdf"
+                        class="btn btn-primary">Download</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-4">
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div *ngIf='Data_Structures_and_Algorithms'>
+          <div class="books">
+            <div class="container">
+              <div class="row">
+                <div class="col-4">
+                  <div class="card">
+                    <img class="card-img-top" src="assets/dsa1.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h4 class="card-title"><a>Data Structures & Algorithms in Java</a></h4>
+                      <p class="card-text">Robert Lafore </p>
+                      <a href="http://web.fi.uba.ar/~jvillca/hd/public/books/Data_Structures_and_Algorithms_in_Java_2nd_Edition.pdf"
+                        class="btn btn-primary">Download</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-4">
+
+                </div>
+
+                <div class="col-4">
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div *ngIf='Data_Security_and_Encryption'>
+          <div class="books">
+            <div class="container">
+              <div class="row">
+                <div class="col-4">
+                  <div class="card">
+                    <img class="card-img-top" src="assets/cds1.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h4 class="card-title"><a>Cryptography and Data Security</a></h4>
+                      <p class="card-text">Dorothy Elizabeth Rob, ling Denning</p>
+                      <a href="https://faculty.nps.edu/dedennin/publications/Denning-CryptographyDataSecurity.pdf"
+                        class="btn btn-primary">Download</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-4">
+                  <div class="card">
+                    <img class="card-img-top" src="assets/cds2.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h4 class="card-title"><a>Cryptography and Network Security</a></h4>
+                      <p class="card-text">William Stallings</p>
+                      <a href="http://www.inf.ufsc.br/~bosco/ensino/ine5680/material-cripto-seg/2014-1/Stallings/Stallings_Cryptography_and_Network_Security.pdf"
+                        class="btn btn-primary">Download</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-4">
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div *ngIf='Data_Mining'>
+          <div class="books">
+            <div class="container">
+              <div class="row">
+                <div class="col-4">
+                  <div class="card">
+                    <img class="card-img-top" src="assets/dm1.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h4 class="card-title"><a>Data Mining: Concepts and Techniques</a></h4>
+                      <p class="card-text">Han, Kamber & Pei </p>
+                      <a href="http://myweb.sabanciuniv.edu/rdehkharghani/files/2016/02/The-Morgan-Kaufmann-Series-in-Data-Management-Systems-Jiawei-Han-Micheline-Kamber-Jian-Pei-Data-Mining.-Concepts-and-Techniques-3rd-Edition-Morgan-Kaufmann-2011.pdf"
+                        target="_blank" class="btn btn-primary">Download</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-4">
+                  <div class="card">
+                    <img class="card-img-top" src="assets/dm2.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h4 class="card-title"><a>Data Mining and Analysis Fundamental Concepts and Algorithms</a></h4>
+                      <p class="card-text">Mohammed J. Zaki and Wagner Meira</p>
+                      <a href="https://repo.palkeo.com/algo/information-retrieval/Data%20mining%20and%20analysis.pdf"
+                        target="_blank" class="btn btn-primary">Download</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-4">
+                    <div class="card">
+                        <img class="card-img-top" src="assets/dm3.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <h4 class="card-title"><a>Data Mining: The Textbook</a></h4>
+                          <p class="card-text">Charu C. Aggarwal</p>
+                          <a href="https://doc.lagout.org/Others/Data%20Mining/Data%20Mining_%20The%20Textbook%20%5BAggarwal%202015-04-14%5D.pdf"
+                            target="_blank" class="btn btn-primary">Download</a>
+                        </div>
+                      </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div *ngIf='Data_Visualization'>
+            <div class="books">
+              <div class="container">
+                <div class="row">
+                  <div class="col-4">
+                    <div class="card">
+                      <img class="card-img-top" src="assets/dv1.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h4 class="card-title"><a>Storytelling With Data: A Data Visualization Guide for Business Professionals </a></h4>
+                        <p class="card-text">Cole Nussbaumer Knaflic </p>
+                        <a href="http://www.bdbanalytics.ir/media/1123/storytelling-with-data-cole-nussbaumer-knaflic.pdf"
+                          class="btn btn-primary">Download</a>
+                      </div>
+                    </div>
+                  </div>
+  
+                  <div class="col-4">
+                      
+                  </div>
+  
+                  <div class="col-4">
+  
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        <div *ngIf='Data_Warehousing'>
+          <div class="books">
+            <div class="container">
+              <div class="row">
+                <div class="col-4">
+                  <div class="card">
+                    <img class="card-img-top" src="assets/dw1.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h4 class="card-title"><a>The Data Warehouse Toolkit</a></h4>
+                      <p class="card-text">Ralph Kimball</p>
+                      <a href="http://www.essai.rnu.tn/Ebook/Informatique/The%20Data%20Warehouse%20Toolkit,%203rd%20Edition.pdf"
+                        class="btn btn-primary">Download</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-4">
+                    <div class="card">
+                        <img class="card-img-top" src="assets/dw2.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <h4 class="card-title"><a>Data Warehousing Fundamentals</a></h4>
+                          <p class="card-text">Paulraj Ponniah</p>
+                          <a href="https://anuradhasrinivas.files.wordpress.com/2013/03/data-warehousing-fundamentals-by-paulraj-ponniah.pdf"
+                            class="btn btn-primary">Download</a>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-4">
+                    <div class="card">
+                        <img class="card-img-top" src="assets/dw3.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <h4 class="card-title"><a>The Data Warehouse Lifecycle Toolkit</a></h4>
+                          <p class="card-text">Bob Becker, Joy Mundy, Margy Ross, Ralph Kimball, and Warren Thornthwaite</p>
+                          <a href="http://www.essai.rnu.tn/Ebook/Informatique/The%20Data%20Warehouse%20Toolkit,%203rd%20Edition.pdf"
+                            class="btn btn-primary">Download</a>
+                        </div>
+                      </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div *ngIf='Design_and_Analysis_of_Algorithms'>
+          <div class="books">
+            <div class="container">
+              <div class="row">
+                <div class="col-4">
+                  <div class="card">
+                    <img class="card-img-top" src="assets/dan1.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h4 class="card-title"><a>Introduction to the Design & Analysis of Algorithms</a></h4>
+                      <p class="card-text">Anany Levitin</p>
+                      <a href="https://labs.xjtudlc.com/labs/wldmt/reading%20list/books/Algorithms%20and%20optimization/Introduction%20to%20Algorithms.pdf"
+                        class="btn btn-primary">Download</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-4">
+                    <div class="card">
+                        <img class="card-img-top" src="assets/dan2.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <h4 class="card-title"><a>Algorithm Design</a></h4>
+                          <p class="card-text">Jon Kleinberg</p>
+                          <a href="http://www.cs.sjtu.edu.cn/~jiangli/teaching/CS222/files/materials/Algorithm%20Design.pdf"
+                            class="btn btn-primary">Download</a>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-4">
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div *ngIf='Design_Pattern'>
+            <div class="books">
+              <div class="container">
+                <div class="row">
+                  <div class="col-4">
+                    <div class="card">
+                      <img class="card-img-top" src="assets/dp1.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h4 class="card-title"><a>Design Patterns in JAVA </a></h4>
+                        <p class="card-text">Steven John Metsker</p>
+                        <a href="http://dl4a.org/uploads/pdf/[Book]%20Metsker,%20S.%20J.%20&%20Wake,%20W.%20C.%20-%20Design%20Patterns%20in%20Java.pdf"
+                          class="btn btn-primary">Download</a>
+                      </div>
+                    </div>
+                  </div>
+  
+                  <div class="col-4">
+                      
+                  </div>
+  
+                  <div class="col-4">
+  
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        <div *ngIf='Object_Oriented_Software_Engineering'>
+          <div class="books">
+            <div class="container">
+              <div class="row">
+                <div class="col-4">
+                  <div class="card">
+                    <img class="card-img-top" src="assets/oopse1.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h4 class="card-title"><a>Object Oriented Software Engineering</a></h4>
+                      <p class="card-text">Timothy C. Lethbridge & Robert Laganière </p>
+                      <a href="https://doc.lagout.org/programmation/Java/Object-Oriented%20Software%20Engineering_%20Practical%20Software%20Development%20using%20UML%20and%20Java%20%282nd%20ed.%29%20%5BLethbridge%20%26%20Lagani%C3%A8re%202004-12-01%5D.pdf"
+                        class="btn btn-primary">Download</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-4">
+
+                </div>
+
+                <div class="col-4">
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Enddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd-->
+
+        <div *ngIf='Programming_Fundamentals'>
+          <div class="books">
+            <div class="container">
+              <div class="row">
+
+                <div class="col-4">
+                  <div class="card">
+                    <img class="card-img-top" src="assets/c1.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h4 class="card-title"><a>C how to program</a></h4>
+                      <p class="card-text">Harvey Deitel and Paul Deitel</p>
+                      <a href="https://drive.google.com/open?id=16lyU1NXkyjY0pqxJxHOiUFltWxI9iiBO" target="_blank"
+                        class="btn btn-primary">Download</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-4">
+                  <div class="card">
+                    <img class="card-img-top" src="assets/c2.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h4 class="card-title"><a>Let us C</a></h4>
+                      <p class="card-text">Yashavant Kanetkar</p>
+                      <a href="https://www.amieindia.in/downloads/ebooks/lets-c.pdf" class="btn btn-primary">Download</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-4">
+                  <div class="card">
+                    <img class="card-img-top" src="assets/c3.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h4 class="card-title"><a>JAVA how to program</a></h4>
+                      <p class="card-text">Harvey Deitel and Paul Deitel</p>
+                      <a href="https://booksmilers.com/pdf/Java_How_to_Program_10th_Edition.pdf" class="btn btn-primary">Download</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+      </div>
+    </div>
+  </mat-drawer-content>
+
+</mat-drawer-container>
+
+
+<!-- <hr> -->
+
+
+<!-- code-->
+<!-- <div *ngIf='Object_Oriented_Software_Engineering'>
+    <div class="books">
+      <div class="container">
+        <div class="row">
+          <div class="col-4">
+            <div class="card">
+              <img class="card-img-top" src="assets/oopse1.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h4 class="card-title"><a>Object Oriented Software Engineering</a></h4>
+                <p class="card-text">Timothy C. Lethbridge & Robert Laganière </p>
+                <a href="https://doc.lagout.org/programmation/Java/Object-Oriented%20Software%20Engineering_%20Practical%20Software%20Development%20using%20UML%20and%20Java%20%282nd%20ed.%29%20%5BLethbridge%20%26%20Lagani%C3%A8re%202004-12-01%5D.pdf"
+                  class="btn btn-primary">Download</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-4">
+
+          </div>
+
+          <div class="col-4">
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> -->
